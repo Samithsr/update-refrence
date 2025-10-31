@@ -39,7 +39,7 @@ const Dashboard = () => {
 
   const handlePredictionClick = (topic) => {
     // Navigate to prediction page with the selected topic as a query parameter
-    navigate(`/prediction?topic=${encodeURIComponent(topic)}`);
+    navigate(`/allusers/prediction?topic=${encodeURIComponent(topic)}`);
   };
 
   useEffect(() => {
